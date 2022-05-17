@@ -5,6 +5,8 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: #333;
+
 }
 
 #cabecera {
@@ -12,11 +14,23 @@ body {
     font-weight: bold;
     color: white;
     margin: 0;
-    padding: 0.5em;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
 }
+
+#cabecera-content {
+    padding: 0.2em 0 0.2em 0.6em;
+}
+#cabecera-content img {
+    height: 2.6rem;
+    margin: 0;
+}
+#cabecera-content h1 {
+    display: inline-block;
+    margin: 0;
+}
+
 #cabecera #tagline {
-    padding: 0 0 0 1em;
+    padding: 0 0 0 0em;
     font-weight: normal;
     font-size: 0.8em;
 }
@@ -32,4 +46,5 @@ body {
 }
 #post {
     padding: 1em;
+    background-color: white;
 }
