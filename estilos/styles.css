@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
 body {
     color: #333;
     text-align: left;
@@ -6,7 +12,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #333;
-
+    font-size: 62.5%;
 }
 
 #cabecera {
@@ -15,6 +21,7 @@ body {
     color: white;
     margin: 0;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
 }
 
 #cabecera-content {
@@ -30,7 +37,7 @@ body {
 }
 
 #cabecera #tagline {
-    padding: 0 0 0 0em;
+    padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
 }
@@ -47,4 +54,22 @@ body {
 #post {
     padding: 1em;
     background-color: white;
+}
+#footer {
+    background-color: #33A;
+    color: white;
+    height: 250px;
+    padding: 2rem 1rem 2rem 1rem;
+}
+#footer ul {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: auto;
+}
+#footer div {
+    border: 1px solid white;
+    border: 1px;
+    height: 20px ;
+    width: 30px;
 }
